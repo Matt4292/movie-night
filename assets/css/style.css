@@ -137,7 +137,7 @@ aside {
   }
   .logo {
     width: 30vw;
-    height: max-content;
+    height: auto;
   }
   .monument-logos {
     width: 40vw;
@@ -152,6 +152,4 @@ aside {
   p {
     font-size: large;
   }
-
-
 }
