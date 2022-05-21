@@ -100,14 +100,14 @@ aside {
 }  
 
 @media screen and (min-width: 1400px) {
-  .header {
-    margin-top: 40vh;
+  .App {
+    padding-top: 8vh;
   }
 } 
 
 @media screen and (max-width: 992px) {
-  .header {
-    margin-top: 180vh;
+  .App {
+    padding-top: 80vh;
   }
   .links {
     flex-direction: column;
@@ -118,15 +118,17 @@ aside {
 }  
 
 @media screen and (max-width: 800px) {
-  .header {
-    margin-top: 160vh;
+  .App {
+    padding-top: 65vh;
   }
 }
 
 @media screen and (max-width: 600px) {
+  .App {
+    padding-top: 40vh;
+  }
   .header {
     flex-direction: column-reverse;
-    margin-top: 120vh;
   }
   .logos {
     flex-direction: row;
